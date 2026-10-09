@@ -6,7 +6,12 @@
   "scripts": {
     "start": "node whatsapp-Kairos/whatsapp-new/backend/server.js",
     "dev": "node --watch whatsapp-Kairos/whatsapp-new/backend/server.js",
-    "build": "npm install --prefix whatsapp-Kairos/whatsapp-new/backend"
+    "build": "npm install"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
   },
   "keywords": [
     "whatsapp",

@@ -84,7 +84,7 @@ app.use((err, req, res, next) => {
 });
 
 // Start the Express server
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log("==================================================");
   console.log("🚀 Kairos Lite WhatsApp Chatbot Backend is LIVE");
   console.log(`📡 Server running on: http://localhost:${PORT}`);

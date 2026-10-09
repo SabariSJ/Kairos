@@ -1,21 +1,4 @@
 {
-  "919500070756": {
-    "step": "AWAITING_FORM_SUBMISSION",
-    "collectedData": {
-      "agreed": true,
-      "lookingFor": null,
-      "profile": null,
-      "hours": null,
-      "workLocation": null,
-      "device": null,
-      "startDate": null,
-      "selectedOffer": "Mobile Money agent",
-      "applications": [],
-      "name": null,
-      "subscriptionDecision": "accept"
-    },
-    "lastUpdated": 1791546837334
-  },
   "918610512237": {
     "step": "AWAITING_AGREEMENT",
     "collectedData": {
@@ -31,5 +14,41 @@
       "name": null
     },
     "lastUpdated": 1791549516178
+  },
+  "919500070756": {
+    "step": "FORM_COMPLETED",
+    "collectedData": {
+      "agreed": true,
+      "lookingFor": null,
+      "profile": null,
+      "hours": null,
+      "workLocation": null,
+      "device": null,
+      "startDate": null,
+      "selectedOffer": "Mobile Money agent",
+      "applications": [],
+      "name": null,
+      "subscriptionDecision": "accept",
+      "formCompleted": true
+    },
+    "lastUpdated": 1791549836498
+  },
+  "919880755819": {
+    "step": "FORM_COMPLETED",
+    "collectedData": {
+      "agreed": true,
+      "lookingFor": null,
+      "profile": null,
+      "hours": null,
+      "workLocation": null,
+      "device": null,
+      "startDate": null,
+      "selectedOffer": "Mobile Money agent",
+      "applications": [],
+      "name": null,
+      "subscriptionDecision": "accept",
+      "formCompleted": true
+    },
+    "lastUpdated": 1791550458260
   }
 }
