@@ -6,7 +6,7 @@ const axios = require("axios");
  */
 class WhatsAppService {
   constructor() {
-    this.token = process.env.WHATSAPP_ACCESS_TOKEN;
+    this.token = process.env.WHATSAPP_ACCESS_TOKEN || "EAA0GZCHnfff0BSiHkuuboCgbQ056pYYar2B0GgZA1TOjp4pqaN7Q0cROGABgJSedcEKw0VDOSBB9nxCxI9sAGU9xEnr2ooo7edCi3HM6iWRPivv8SUuVpVOitTPe18okFJeTfcwIQnPglXidbssoSu8JJg3yVZBLCo8mSl9hY3N6YXtZAlJt63u09ZCZC24ZC7xDgZDZD";
     this.phoneNumberId = process.env.WHATSAPP_PHONE_NUMBER_ID || "1393037967216637";
     this.graphApiVersion = process.env.GRAPH_API_VERSION || "v26.0";
     this.baseUrl = `https://graph.facebook.com/${this.graphApiVersion}/${this.phoneNumberId}`;

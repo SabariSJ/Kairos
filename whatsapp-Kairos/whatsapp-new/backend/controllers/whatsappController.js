@@ -11,7 +11,7 @@ function verifyWebhook(req, res) {
   const token = req.query["hub.verify_token"];
   const challenge = req.query["hub.challenge"];
 
-  const expectedToken = process.env.WHATSAPP_VERIFY_TOKEN;
+  const expectedToken = process.env.WHATSAPP_VERIFY_TOKEN || "sproutks_webhook_verify_token_2026";
 
   console.log(`[Webhook Verification Request] Mode: ${mode} | Provided Token: ${token ? "***" : "missing"}`);
 
