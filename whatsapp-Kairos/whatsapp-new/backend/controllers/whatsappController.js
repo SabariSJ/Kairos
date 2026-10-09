@@ -81,7 +81,7 @@ async function handleWebhook(req, res) {
 
     // 2. SELF-MESSAGE PROTECTION:
     // Ignore messages from the bot's own number to prevent loops
-    const botPhone = (process.env.WHATSAPP_PHONE_NUMBER || "").replace(/\D/g, "");
+    const botPhone = (process.env.WHATSAPP_PHONE_NUMBER || "919629531891").replace(/\D/g, "");
     if (botPhone && from === botPhone) {
       console.log(`[Self Message Dropped] Ignoring message sent from bot's own number: +${from}`);
       return;

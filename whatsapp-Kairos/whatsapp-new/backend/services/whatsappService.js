@@ -23,7 +23,7 @@ class WhatsAppService {
    * Authorization headers for Meta Graph API
    */
   getHeaders() {
-    const token = process.env.WHATSAPP_ACCESS_TOKEN;
+    const token = process.env.WHATSAPP_ACCESS_TOKEN || this.token;
     if (!token || token === "your_token_here") {
       console.warn("[WhatsApp Service Warning] WHATSAPP_ACCESS_TOKEN is missing or placeholder!");
     }
