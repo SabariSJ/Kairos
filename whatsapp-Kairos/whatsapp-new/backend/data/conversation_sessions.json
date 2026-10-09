@@ -1,5 +1,5 @@
 {
-  "918610512237": {
+  "919500406150": {
     "step": "AWAITING_AGREEMENT",
     "collectedData": {
       "agreed": false,
@@ -13,42 +13,6 @@
       "applications": [],
       "name": null
     },
-    "lastUpdated": 1791549516178
-  },
-  "919500070756": {
-    "step": "FORM_COMPLETED",
-    "collectedData": {
-      "agreed": true,
-      "lookingFor": null,
-      "profile": null,
-      "hours": null,
-      "workLocation": null,
-      "device": null,
-      "startDate": null,
-      "selectedOffer": "Mobile Money agent",
-      "applications": [],
-      "name": null,
-      "subscriptionDecision": "accept",
-      "formCompleted": true
-    },
-    "lastUpdated": 1791549836498
-  },
-  "919880755819": {
-    "step": "FORM_COMPLETED",
-    "collectedData": {
-      "agreed": true,
-      "lookingFor": null,
-      "profile": null,
-      "hours": null,
-      "workLocation": null,
-      "device": null,
-      "startDate": null,
-      "selectedOffer": "Mobile Money agent",
-      "applications": [],
-      "name": null,
-      "subscriptionDecision": "accept",
-      "formCompleted": true
-    },
-    "lastUpdated": 1791550458260
+    "lastUpdated": 1791557192648
   }
 }

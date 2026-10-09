@@ -163,8 +163,8 @@ function getCourseListMessage() {
 /**
  * Resolve direct video or audio URL
  */
-function resolveMediaUrl(url, fallbackFilename = "kairos_lesson.mp4") {
-  const serverBase = process.env.SERVER_BASE_URL || "https://viewing-referable-moonshine.ngrok-free.dev";
+function resolveMediaUrl(url, fallbackFilename = "french.mp4") {
+  const serverBase = process.env.RENDER_EXTERNAL_URL || process.env.SERVER_BASE_URL || "https://kairos-iec3.onrender.com";
   
   if (url) {
     const filename = path.basename(url);
