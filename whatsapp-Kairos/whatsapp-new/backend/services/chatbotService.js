@@ -164,7 +164,7 @@ function getCourseListMessage() {
  * Resolve direct video or audio URL
  */
 function resolveMediaUrl(url, fallbackFilename = "french.mp4") {
-  const serverBase = process.env.RENDER_EXTERNAL_URL || process.env.SERVER_BASE_URL || "https://kairos-iec3.onrender.com";
+  const serverBase = process.env.RENDER_EXTERNAL_URL || process.env.SERVER_BASE_URL || "https://kairos-1ec3.onrender.com";
   
   if (url) {
     const filename = path.basename(url);
